@@ -1,0 +1,13 @@
+{
+    "nome": "Maria",
+    "sobrenome": "Claudia",
+    "empresa": "EBAC",
+    "endereco": "Av. Paulista",
+    "numero": "514",
+    "pais": "Brasil",
+    "cidade": "São Paulo",
+    "estado": "São Paulo",
+    "cep": "89035-212",
+    "telefone": "47998653265",
+    "email": "teste@teste.com"
+}
