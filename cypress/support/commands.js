@@ -32,6 +32,7 @@ Cypress.Commands.add('login', (usuario, senha) => {
 });
 
 Cypress.Commands.add('adicionaProdutosAoCarrinho', (nomeDoProduto, tamanho, cor, quantidadeDoProduto) => {
+    cy.get('#primary-menu > .menu-item-629 > a').click()
     cy.get('[class="product-block grid"]')
         .contains(nomeDoProduto).click()
     cy.get('.button-variable-item-' + tamanho).click()

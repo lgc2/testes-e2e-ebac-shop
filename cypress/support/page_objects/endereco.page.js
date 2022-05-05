@@ -16,7 +16,7 @@ class EnderecoPage {
         cy.get('#billing_postcode').clear().type(cep)
         cy.get('#billing_phone').clear().type(telefone)
         cy.get('#billing_email').clear().type(email)
-        cy.get('.button').click()
+        cy.get(':nth-child(2) > .button').click()
     }
 
     editarEnderecoEntrega(nome, sobrenome, empresa, pais, rua, numeroDoEndereco, cidade, estado, cep) {
