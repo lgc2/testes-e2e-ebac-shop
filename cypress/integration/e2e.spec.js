@@ -22,15 +22,15 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
     it.only('Deve fazer um pedido na loja Ebac Shop de ponta a ponta', () => {
         
         let quantidadeDoProduto1 = 4
-        let nomeDoProduto1 = 'Argus All-Weather Tank'
+        let nomeDoProduto1 = 'Aero Daily Fitness Tee'
         let tamanhoDoProduto1 = 'L'
-        let corDoProduto1 = 'Gray'
-        let precoUnitarioDoProduto1 = 22
+        let corDoProduto1 = 'Black'
+        let precoUnitarioDoProduto1 = 24
 
         let quantidadeDoProduto2 = 1
         let nomeDoProduto2 = 'Aether Gym Pant'
         let tamanhoDoProduto2 = '34'
-        let corDoProduto2 = 'Brown'
+        let corDoProduto2 = 'Green'
         let precoUnitarioDoProduto2 = 74
 
         let montanteTotal = (precoUnitarioDoProduto1 * quantidadeDoProduto1) + (precoUnitarioDoProduto2 * quantidadeDoProduto2)
